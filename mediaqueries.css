@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+    .navbar ul {
+        background: white;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        font-size: 25px;
+    }
+
+    .navbar-img{
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .navbar-list {
+        display: flex;
+    }
+
+}
+
