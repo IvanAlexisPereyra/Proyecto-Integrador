@@ -16,7 +16,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
     background: ghostwhite;
     position: fixed;
     width: 100%;
@@ -151,6 +150,52 @@ body {
     height: 400px;
 }
 
+/* Contactos main*/
+
+#contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    padding-top: 150px;
+    background-color: rgb(245, 182, 111);
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 25px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    font-size: 30px;
+}
+
+.contacts h2 {
+    font-size: 50px;
+}
+
+.contacts-info {
+    display: flex;
+    gap: 60px;
+}
+
+.contacts-info-emp {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts-info-emp ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts-icons {
+    display: flex;
+    gap: 30px;
+}
 
 /* footer */
 
