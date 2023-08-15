@@ -8,14 +8,16 @@ a {
     text-decoration: none;
 }
 
+/* Header */
+
 .header {
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-    background: white;
+    background: ghostwhite;
     position: fixed;
     width: 100%;
 }
@@ -24,6 +26,7 @@ a {
     list-style-type: none;
     display: flex;
     gap: 100px;
+    font-size: 21px;
 }
 
 .navbar {
@@ -42,4 +45,128 @@ a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+}
+
+/* Main index */
+
+body {
+    background-image: url(./img/fondo\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    padding-top: 150px;
+    background-color: rgb(245, 182, 111);
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 25px;
+}
+
+#hero img {
+    border-radius: 15px;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.hero-title h1 {
+    font-size: 50px;
+}
+
+.hero-title h2 {
+    font-size: 35px;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 182, 111);
+    margin: 75px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+#info p {
+    font-size: 25px;
+}
+
+#bene {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 182, 111);
+    margin: 75px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.bene-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.bene-card h3 {
+    font-size: 25px;
+}
+
+.bene-card img {
+    border-radius: 15px;
+}
+
+#cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 182, 111);
+    margin: 75px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.cont-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    font-size: 25px;
+}
+
+#cont iframe {
+    width: 600px;
+    height: 400px;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 153, 0);
+}
+
+.footer-short {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 153, 0);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
