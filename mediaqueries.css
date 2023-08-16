@@ -20,5 +20,8 @@
         display: flex;
     }
 
+    .footer-short-info {
+        position: relative;
+    }
 }
 
