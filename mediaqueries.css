@@ -83,6 +83,14 @@
 }
 
 @media (max-width: 768px) {
+    #hero,
+    #info,
+    #services,
+    #bene,
+    #contacts {
+        margin: 50px;
+    }
+
     .services-pata,
     .services-pizza {
         gap: 35px;
@@ -102,14 +110,6 @@
 @media (max-width: 576px) {
     #hero img {
         display: none;
-    }
-
-    #hero,
-    #info,
-    #services,
-    #bene,
-    #contacts {
-        margin: 50px;
     }
 
     #contacts iframe {
