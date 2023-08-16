@@ -10,14 +10,88 @@
         justify-content: center;
         display: none;
         font-size: 25px;
+        background-color: rgb(255, 153, 0);
     }
 
     .navbar-img{
         display: block;
     }
 
+    .header {
+        justify-content: space-between;
+        padding: 25px;
+    }
+
     #toggle-menu:checked ~ .navbar-list {
         display: flex;
+    }
+
+    #hero {
+        flex-direction: column;
+        gap: 75px;
+    }
+
+    .hero-title {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #bene {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #contacts {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .services-pata,
+    .services-pizza {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-txt {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contacts {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    #contacts iframe {
+        height: 400px;
+        width: 475px;
+    }
+
+    .contacts-info {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #login,
+    #register {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-pata,
+    .services-pizza {
+        gap: 35px;
+    }
+
+    #login,
+    #register {
+        margin-left: 25%;
+        margin-right: 25%;
     }
 
     .footer-short-info {
@@ -25,3 +99,30 @@
     }
 }
 
+@media (max-width: 576px) {
+    #hero img {
+        display: none;
+    }
+
+    #hero,
+    #info,
+    #services,
+    #bene,
+    #contacts {
+        margin: 50px;
+    }
+
+    #contacts iframe {
+        display: none;
+    }
+
+    #login,
+    #register {
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+
+    .footer-short-info {
+        position: relative;
+    }
+}

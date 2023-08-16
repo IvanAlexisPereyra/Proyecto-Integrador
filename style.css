@@ -22,7 +22,7 @@ a {
 .navbar ul {
     list-style-type: none;
     display: flex;
-    gap: 100px;
+    gap: 50px;
     font-size: 21px;
 }
 
@@ -99,11 +99,11 @@ body {
 }
 
 #info h1 {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 #info p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* Beneficios */
@@ -123,7 +123,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
 }
 
 .bene-card h3 {
@@ -215,8 +214,7 @@ body {
     font-size: 20px;
 }
 
-.services-pata, 
-.services-boca {
+.services-pata {
     display: flex;
     gap: 100px;
 }
