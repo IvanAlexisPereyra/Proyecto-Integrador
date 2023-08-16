@@ -179,6 +179,54 @@ body {
     gap: 30px;
 }
 
+/* Servicios */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 182, 111);
+    margin: 75px;
+    padding: 50px;
+    border-radius: 25px;
+    gap: 75px;
+}
+
+#services h1 {
+    font-size: 50px;
+}
+
+#services img {
+    border-radius: 15px;
+}
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.services-txt h2 {
+    font-size: 30px;
+}
+
+.services-txt li {
+    font-size: 20px;
+}
+
+.services-pata, 
+.services-boca {
+    display: flex;
+    gap: 100px;
+}
+
+.services-pizza {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
 /* Login */
 
 #login {
@@ -188,8 +236,8 @@ body {
     align-items: center;
     background-color: rgb(245, 182, 111);
     margin: 75px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
     padding: 50px;
     border-radius: 25px;
     gap: 30px;
@@ -235,8 +283,8 @@ body {
     align-items: center;
     background-color: rgb(245, 182, 111);
     margin: 75px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
     padding: 50px;
     border-radius: 25px;
     gap: 30px;
